@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Rai</title>
+    <link rel="icon" href="/aman/me.ico">
+    <style>
+        .navbar {
+            background-color: #ffffff;
+            overflow: hidden;
+            display:flex;
+            justify-content:space-between;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        .navbar li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .navbar a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #0800ff;
+            color:#ffffff;
+            border-radius: 20px;
+            filter: drop-shadow(0px 0px 5px #0800ff)
+        }
+        .form-group-container{
+            display:grid;
+            gap:1rem;
+            margin-top:2rem;
+        }
+        .form-group{
+            display:flex;
+            flex-direction:column;
+        }
+        .form-label{
+            margin-bottom:0.5rem;
+        }
+        .form-input,
+        .form-textarea{
+            padding:0.5rem;
+            border:1px solid #e5e7eb;
+            display:flex;
+            height:2.5rem;
+            width:100%;
+            border-radius:0.375rem;
+            font-size:0.875rem;
+            line-height:1.25rem;
+        }
+        .form-input::placeholder,
+        .form-textarea:focus-visible{
+            color:#6b7280;
+        }
+        .form-input:focus-visible,
+        .form-textarea:focus-visible {
+        outline: 2px solid #2563eb;
+        outline-offset: 2px;
+        }
+
+        .form-textarea {
+        min-height: 120px;
+        }
+
+        .form-submit {
+        width: 100%;
+        margin-top: 1.2rem;
+        background-color: #3124ca;
+        color: #fff;
+        padding: 13px 5px;
+        border-radius: 0.375rem;
+        }
+        .footer{
+            background-color: #0800ff;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            color: #f2f2f2;
+            font-family: Times New Roman, Times, serif;
+            font-size: large;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer ul{
+            list-style-type:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="/aman/P1.png" height="70px">
+        <div class="navbar">
+            
+            <ul class="link">
+                <div class="linkco">
+                <li><a href="/">Home</a></li>
+                <!--<li><a href="/skills">Skills</a></li>-->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+            <h1 class="title" id="Contact">
+                <u>Contact US</u>
+            </h1>
+            <p>Get in touch with Me</p>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="7e71bd1c-693a-4173-aff6-1e2bb07c16c4" />
+            <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+            <input type="hidden" name="from_name" value="My Website" />
+            <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+            <div class="form-group-container">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label">Phone</label>
+                <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+            </div>
+            <button class="form-submit" type="submit">Send Message</button>
+        </form>
+    </div>
+    <div>
+        <div class="footer">
+            <p>Aman Rai</p>
+            <ul>
+            <li>
+                My name is Aman Rai, currently pursuing a Bachelor's degree in Computer Applications. I possess skills in Python, SQL, HTML, CSS, C++ and C.
+            </li>
+            </ul>
+            <ul>
+            <li> +91 8581091274</li>
+            </ul>
+      </div>
+    </div>
+</body>
+</html>

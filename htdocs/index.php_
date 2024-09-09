@@ -1,0 +1,103 @@
+<?php
+echo '
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=chrome">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" <!-- Add these meta tags for SEO -->
+	<meta name="author" content="Ayush Kumar">
+	<meta name="description" content="Discover Ayush Kumar\'s portfolio website and explore comprehensive information about his skills, projects, and more. Get to know Ayush better and witness his creative journey firsthand.">
+	<meta name="keywords" content="Ayush Kumar, portfolio, web developer, student, skills, projects">
+	<meta name="subject" content="Ayush Kumar\'s Portfolio Website">
+	<meta name="copyright" content="Ayush Kumar">
+	<meta name="url" content="https://ayushport.rf.gd/portfolio">
+	<meta name="identifier-url" content="https://ayushport.rf.gd/portfolio">
+	<meta name="language" content="English">
+	<meta name="application-name" content="Ayush Kumar\'s Portfolio Website">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="revisit-after" content="1 days">
+	<meta name="googlebot" content="index, follow">
+	<meta name="bingbot" content="index, follow">
+	<meta name="google-site-verification" content="IvoU4jID2Tu9iBdQttJreWTj2Zjr2pFDuGmB-SzerAc">
+	<meta name="msvalidate.01" content="your-bing-verification-code">
+
+	<title>portfolio</title>
+	<link rel="icon" href="/ayush/a.ico">
+	<link rel="stylesheet" href="/styles.css">
+	<style>
+        .footer {
+			background-color: #0008ff;
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
+            margfin-top: 10px;
+			padding: 10px;
+			text-align: center ;
+            color:whitesmoke;
+		}     
+        .footer h4{
+            
+            padding-right: 100px;
+        }
+	</style>
+
+	<body>
+		<div class="navbar" align="center">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="container" id="home">
+			<div class="text">
+				<h1 align="center" item-size="200%">I Am Ayush Kumar</h1>
+				<h1 align="center">I Am Student</h1>
+				<p align="center">Welcome to my portfolio website. Here you can find information about me, my skills, and my projects.</p>
+				<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript">
+				</script>
+
+			</div>
+			<div class="image">
+				<img src="/ayush/P1.jpg" width="100%" height="100%">
+        </div>
+    </div>
+    <div class="container2">
+        <h1 class="title" id="skills">My Programming Skills</h1>
+        <div class="skills">
+          <div class="skill">
+            <h2>HTML</h2>
+            <p>I can create structured and semantic HTML code that is easy to read and understand.</p>
+          </div>
+          <div class="skill">
+            <h2>CSS</h2>
+            <p>I can style and layout web pages using CSS</p>
+          </div>
+          <div class="skill">
+            <h2>Python</h2>
+            <p>I have experience with Python ,Including data statical analysis </p>
+
+          </div>
+          <div class="skill">
+              <h2>SQL</h2>
+              <p>I have experience with SQl, I have used SQl for making database</p> 
+            </div>
+        </div>
+    </div>   
+    <footer>
+        <p>Copyright &copy; 2024 Your Website Name</p>
+        <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="col-md-6 text-md-end">
+                <a href="http://ayushport.rf.gd/index1.php/login">Log in</a>                </div>
+    </footer>
+</body>
+</html>
+';
+?>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="title" content="Ayush Kumar">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achivement</title>
+    <link rel="icon" href="/photo/a.png">
+    <link rel="stylesheet" href="/style/style.css">
+    <style>
+            .card-container{
+                display: inline-flex;
+                flex-wrap: nowrap;
+                gap: 10px;
+                overflow: hidden;
+                justify-content: space-around;
+            }
+            .card img{
+                border-radius: 20px;
+            }
+            .img {
+                margin: 0px;
+            }
+            .card {
+                margin: 1%;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 400px;
+                flex-grow: 1;
+                padding-bottom: 0px;
+                padding-top: 20px;
+                background-color: #f2f2f2;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            }
+            button{
+                background-color: blue;
+                color: white;
+                border-radius: 20px;
+                padding: 10px;
+            }
+            .button{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                gap: 10px;
+            }
+            button a{
+                color: white;
+                text-decoration: none;
+            }
+            @media (max-width: 600px) {
+
+                .card-container{
+                    flex-direction: column;
+                }
+        </style>
+</head>
+<body>
+    <div class="navbar" >
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/skill.html">Achivement</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <h1 class="title">My Achivement</h1>
+    
+    <div class="card-container">
+        <div class="card">
+            <img class="img" src="/certificate/1.jpg" width="200px" height="150px"></img>
+            <p>Description of Achivement 1.</p>
+        </div>
+        <div class="card">
+            <img align="center" class="img" src="/certificate/2.jpg" width="200px" height="150px"></img>
+            <p>Description of Achivement 1.</p>
+        </div>
+        <div class="card">
+            <img class="img" src="/certificate/1.jpg" width="200px" height="150px"></img>
+            <p>Description of Achivement 1.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Copyright &copy; 2024 Ayush Portfolio</p>
+            
+        <ul>
+            <li>Contact no.</li>
+        </ul>
+        <ul>
+            <li>+91 7838945961</li>
+        </ul>
+        
+    </div>
+</body>
+</html>
