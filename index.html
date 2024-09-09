@@ -1,83 +1,210 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Rai</title>
+    <link rel="icon" href="/aman/me.ico" />
+    <style>
+      .navbar {
+        background-color: #ffffff;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+      }
+      .navbar li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .navbar a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: #0800ff;
+        color: #ffffff;
+        border-radius: 20px;
+        filter: drop-shadow(0px 0px 5px #0800ff);
+      }
+      .container {
+        display: flex;
+        justify-content: start;
+        height: auto;
+        align-items: center;
+      }
+      .text {
+        width: 50%;
+        padding-right: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.5rem;
+      }
+      .text span {
+        color: #0800ff;
+        text-decoration: underline;
+      }
+      .image {
+        width: 50%;
+        height: 50%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        filter: drop-shadow(10px 10px 20px #0800ff);
+      }
+      .container2 {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      .title {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #0800ff;
+      }
+      .skills {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .skill {
+        width: 30%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      .skill h2 {
+        margin-top: 0;
+        color: #0008ff;
+      }
+      .footer {
+        background-color: #0800ff;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        color: #f2f2f2;
+        font-family: Times New Roman, Times, serif;
+        font-size: large;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+      }
+      .footer ul {
+        list-style-type: none;
+      }
+      /* Add CSS for mobile devices */
+      @media (max-width: 600px) {
+        .navbar a {
+          padding: 0%;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .text {
+          width: auto;
+          height: auto;
+        }
+        .image {
+          width: 100%;
+          padding: 10px;
+          background-color: white;
+        }
+        .container2 {
+        }
+        .skills {
+          width: 100%;
+        }
+        .skill {
+          width: 100%;
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=chrome">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" 
-  <!-- Add these meta tags for SEO -->
-  <meta name="author" content="Aman Rai">
-  <meta charset="UTF-8">
-  <meta name="language" content="English">
-  <meta name="application-name" content="Aman Rai's Portfolio Website">
-
-  <title>portfolio</title>
-  <link rel="icon" href="me.ico">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-
-  <!-- <div style="vertical-align:middle"> -->
-  <!-- <img width="400"  src="Ar.jpg" class='proimg'style="float:right"> -->
-  </div>
-
-  <div class="container" id="home">
-    <div class="text">
-      <h1>
-        I AM
-        <span>
-          <u>Aman Rai</u>
-        </span>
-      </h1>
-      <p> Welcome to my portfolio website. Here you can find information about me, my skills, and my projects. I
-        currently pursuing a Bachelor's degree in Computer Applications. I possess skills in Python, SQL, HTML, CSS, C++
-        and C.
-      </p>
-
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="/aman/P1.png" height="70px" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-    <div class="image" align="center">
-      <img src="Ar.png" width="90%" class='proimg' style="float:right">
+    <div class="container" id="home">
+      <div class="text">
+        <h1 align="center" item-width="100%">I Am <span> Aman Rai</span></h1>
+        <p align="center">
+          Welcome to my portfolio website. Here you can find information about
+          me, my skills, and my projects. I currently pursuing a Bachelor's
+          degree in Computer Applications. I possess skills in Python, SQL,
+          HTML, CSS, C++ and C.
+        </p>
+        <script
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          async
+          defer
+          type="text/javascript"
+        ></script>
+      </div>
+      <div class="image">
+        <img src="/aman/P1.png" height="70%" />
+      </div>
     </div>
-  </div>
-  <div class="container2">
-    <h1 class="title" id="skills">My Programming Skills</h1>
-    <div class="skills">
-      <div class="skill">
-        <h2>HTML</h2>
-        <p>I can create structured and semantic HTML code that is easy to read and understand.</p>
+    <div class="container2">
+      <h1 class="title" id="skills">My Programming Skills</h1>
+      <div class="skills">
+        <div class="skill">
+          <h2>HTML</h2>
+          <p>
+            I can create structured and semantic HTML code that is easy to read
+            and understand.
+          </p>
+        </div>
+        <div class="skill">
+          <h2>CSS</h2>
+          <p>I can style and layout web pages using CSS</p>
+        </div>
+        <div class="skill">
+          <h2>C/C++</h2>
+          <p>I can do DSA in C/C++</p>
+        </div>
+        <div class="skill">
+          <h2>Python</h2>
+          <p>I have experience with Python ,Including data statical analysis</p>
+        </div>
       </div>
-      <div class="skill">
-        <h2>CSS</h2>
-        <p>I can style and layout web pages using CSS</p>
-      </div>
-      <div class="skill">
-        <h2>Python</h2>
-        <p>I have experience with Python ,Including data statical analysis </p>
-      </div>
-      <div class="skill">
-        <h2>SQL</h2>
-        <p>I have experience with SQL , including creating, querying, and managing databases.</p>
-      </div>
+    </div>
+    <div>
       <div class="footer">
         <p>Aman Rai</p>
         <ul>
           <li>
-            My name is Aman Rai, currently pursuing a Bachelor's degree in Computer Applications. I possess skills in
-            Python, SQL, HTML, CSS, C++ and C.
+            My name is Aman Rai, currently pursuing a Bachelor's degree in
+            Computer Applications. I possess skills in Python, SQL, HTML, CSS,
+            C++ and C.
           </li>
         </ul>
         <ul>
-          <li> +91 8581091274</li>
+          <li>+91 8581091274</li>
         </ul>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
