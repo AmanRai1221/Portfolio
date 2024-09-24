@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #ffffff;
+    background-color: #f1e3e3;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@
 }
 
 .container2 {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: #f2f2f2;
     padding: 20px;
@@ -84,7 +84,7 @@
 }
 
 .skill {
-    width: 30%;
+    width: 31%;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
