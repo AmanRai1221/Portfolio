@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <!-- <a href="#portfolio">Portfolio</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Aman Rai</h1>
+            <p>Welcome to my portfolio website. Here you can find information about me, my skills, and my projects. I currently pursuing a Bachelor's degree in Computer Applications. I possess skills in Python, SQL, HTML, CSS, C++ and C.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-video-recording' ></i>
+                    <h3>Video Editor</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-edit-alt' ></i>
+                    <h3>Content Writer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="Rai.png" alt="Aman Rai">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Rai2.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi I'm Here To Help Your Next Project!</h3>
+            <p>I am Aman Rai from Bihar, I am Student of Computer Science, Welcome to my Portfolio website. I Study in Delhi</p>
+            <a href="#" class="btn">Read More</a> 
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-palette' ></i>
+                <h3>Web Design</h3>
+                <p>Web design is a multifaceted discipline that combines aesthetics and functionality to create engaging and user-friendly websites. It encompasses various skills and practices essential for producing and maintaining websites, focusing on both the visual appeal and the user experience (UX).</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I create, build, and maintain websites and web applications. It includes a variety of tasks that range from coding and technical design to performance optimization and content management.Web development is crucial for establishing an online presence in today's digital landscape.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-video'></i>
+                <h3>Video Editing</h3>
+                <p>Video editing is the process of manipulating and rearranging video footage to create a new work. It involves various techniques that enhance storytelling, pacing, and visual appeal, making it an essential aspect of film and content production.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    </section>
+    <!-- Portfolio section design
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+     </section>
+     <div class="portfolio-container">
+        <div class="portfolio-box"></div>
+     </div> -->
+
+    <!-- Contact section design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Aman Rai | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
+    <!-- Scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
